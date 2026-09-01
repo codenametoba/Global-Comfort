@@ -8,7 +8,7 @@ export default function FrontDeskPage() {
       <section className="page-content">
         <div className="ops-grid">
           <article className="ops-card"><strong>12</strong><h3>Available Tonight</h3><p>Live availability will update as bookings are added.</p></article>
-          <article className="ops-card"><strong>7</strong><h3>Expected Arrivals</h3><p>Realtime check-in queue for reception.</p></article>
+          <article className="ops-card"><strong>7</strong><h3>Expected Arrivals</h3><p>Realtime check in queue for reception.</p></article>
           <article className="ops-card"><strong>3</strong><h3>Housekeeping Holds</h3><p>Room status blocks prevent accidental sale.</p></article>
         </div>
         <div className="table-card">

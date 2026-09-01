@@ -31,8 +31,8 @@ export default async function RoomPage({ params }: { params: Promise<{ slug: str
           </dl>
           <h3>Amenities</h3>
           <div className="chip-row">{room.amenities.map((item) => <span key={item}>{item}</span>)}</div>
-          <h3>Room Policies</h3>
-          <p>Editable check-in, check-out, cancellation, occupancy and payment policies should be confirmed by Global Comfort management before launch.</p>
+          <h3>Stay Policies</h3>
+          <p>The Global Comfort team can confirm arrival time, departure time, cancellation guidance and payment options for your stay.</p>
           <h3>Related Rooms</h3>
           <div className="room-grid">{related.map((item) => <RoomCard key={item.slug} room={item} />)}</div>
         </article>

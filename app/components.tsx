@@ -16,7 +16,11 @@ export function Header() {
       </nav>
       <div className="header-actions">
         <details className="mobile-menu">
-          <summary aria-label="Open menu">Menu</summary>
+          <summary aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </summary>
           <nav aria-label="Mobile navigation">
             {navItems.map(([label, href]) => (
               <Link key={href} href={href}>
@@ -135,7 +139,7 @@ export function PriceBlock({ naira, usd }: { naira: string; usd: string }) {
     <div className="price-block">
       <span>From</span>
       <strong>{naira}</strong>
-      <small>per night · {usd} USD fixed rate</small>
+      <small>per night. USD fixed rate: {usd}</small>
     </div>
   );
 }

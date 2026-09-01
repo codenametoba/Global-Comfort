@@ -34,7 +34,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="eyebrow">Our Apartments</p>
           <h2>Find the space that fits your stay.</h2>
-          <p>From refined one-bedroom apartments to larger family-ready stays, each category is presented with clear nightly rates.</p>
+          <p>From refined one bedroom apartments to larger family stays, each category is presented with clear nightly rates.</p>
         </div>
         <div className="room-grid feature-room-grid">{rooms.map((room) => <RoomCard key={room.slug} room={room} />)}</div>
       </section>

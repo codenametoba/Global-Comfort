@@ -2,8 +2,8 @@ import { PageHero } from "../components";
 import { images } from "../site-data";
 
 const faqs = [
-  "What time is check-in?",
-  "What time is check-out?",
+  "What time is check in?",
+  "What time is check out?",
   "Can I modify my reservation?",
   "Can I cancel my booking?",
   "Can I pay at the hotel?",

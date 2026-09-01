@@ -46,14 +46,14 @@ export const rooms = [
   {
     slug: "standard-one-bed",
     name: "Standard 1 Bed Apartment",
-    displayName: "Standard One-Bedroom",
-    label: "One-bedroom stay",
+    displayName: "Standard One Bedroom",
+    label: "One bedroom stay",
     collection: "Essential comfort",
     image: images.bedroom,
     description:
-      "A refined one-bedroom stay for guests who want privacy, calm interiors and easy access to the University Road area.",
+      "A refined one bedroom stay for guests who want privacy, calm interiors and easy access to the University Road area.",
     longDescription:
-      "Designed for short visits, focused work trips and comfortable nights near the University of Ilorin axis. This one-bedroom apartment gives guests a private place to rest, refresh and settle in with ease.",
+      "Designed for short visits, focused work trips and comfortable nights near the University of Ilorin axis. This one bedroom apartment gives guests a private place to rest, refresh and settle in with ease.",
     guests: "Up to 2 guests",
     bed: "1 bedroom",
     size: "Confirm exact size",
@@ -67,14 +67,14 @@ export const rooms = [
   {
     slug: "premium-tier-one-one-bed",
     name: "Premium Tier-One 1 Bed",
-    displayName: "Premium One-Bedroom",
+    displayName: "Premium One Bedroom",
     label: "Premium collection · Tier I",
     collection: "Tier I",
     image: images.mediaWall,
     description:
-      "A warmer premium one-bedroom option with a composed living area and elevated interior finish.",
+      "A warmer premium one bedroom option with a composed living area and elevated interior finish.",
     longDescription:
-      "A polished one-bedroom apartment for guests who want a warmer interior feel, private living space and a calm place to return to after a day in Ilorin.",
+      "A polished one bedroom apartment for guests who want a warmer interior feel, private living space and a calm place to return to after a day in Ilorin.",
     guests: "Up to 2 guests",
     bed: "1 bedroom",
     size: "Confirm exact size",
@@ -88,14 +88,14 @@ export const rooms = [
   {
     slug: "premium-tier-two-one-bed",
     name: "Premium Tier-Two 1 Bed",
-    displayName: "Premium One-Bedroom",
+    displayName: "Premium One Bedroom",
     label: "Premium collection · Tier II",
     collection: "Tier II",
     image: images.lounge,
     description:
-      "A higher one-bedroom tier for guests who want extra polish, privacy and a more residential stay.",
+      "A higher one bedroom tier for guests who want extra polish, privacy and a more residential stay.",
     longDescription:
-      "A higher one-bedroom category with a more elevated apartment feel, ideal for guests who value privacy, comfort and a more residential sense of space.",
+      "A higher one bedroom category with a more elevated apartment feel, ideal for guests who value privacy, comfort and a more residential sense of space.",
     guests: "Up to 2 guests",
     bed: "1 bedroom",
     size: "Confirm exact size",
@@ -109,14 +109,14 @@ export const rooms = [
   {
     slug: "premium-two-bed",
     name: "Premium 2 Bed Apartment",
-    displayName: "Premium Two-Bedroom",
-    label: "Two-bedroom stay",
+    displayName: "Premium Two Bedroom",
+    label: "Two bedroom stay",
     collection: "Family comfort",
     image: images.loungeWide,
     description:
-      "A spacious two-bedroom option for families, colleagues or guests who prefer more room to settle in.",
+      "A spacious two bedroom option for families, colleagues or guests who prefer more room to settle in.",
     longDescription:
-      "A comfortable two-bedroom apartment for families, colleagues and small groups who want separate bedrooms, shared living space and an easy base near University Road.",
+      "A comfortable two bedroom apartment for families, colleagues and small groups who want separate bedrooms, shared living space and an easy base near University Road.",
     guests: "Up to 4 guests",
     bed: "2 bedrooms",
     size: "Confirm exact size",
@@ -130,8 +130,8 @@ export const rooms = [
   {
     slug: "premium-three-bed",
     name: "Premium 3 Bed Apartment",
-    displayName: "Premium Three-Bedroom",
-    label: "Three-bedroom stay",
+    displayName: "Premium Three Bedroom",
+    label: "Three bedroom stay",
     collection: "Extended space",
     image: images.courtyard,
     description:
@@ -151,9 +151,9 @@ export const rooms = [
 ];
 
 export const facilities = [
-  { title: "Private Apartment Layouts", status: "One, two and three-bedroom categories", image: images.bedroom },
+  { title: "Private Apartment Layouts", status: "One, two and three bedroom categories", image: images.bedroom },
   { title: "Furnished Lounge Areas", status: "Comfortable seating and TV wall shown in supplied photos", image: images.loungeWide },
-  { title: "On-Site Parking Court", status: "Visible paved compound and internal drive", image: images.courtyard },
+  { title: "On Site Parking Court", status: "Visible paved compound and internal drive", image: images.courtyard },
   { title: "University Road Access", status: "Before University of Ilorin Gate, off Tanke Road", image: images.aerial },
 ];
 
@@ -161,13 +161,13 @@ export const offers = [
   {
     title: "University Road Stay",
     description:
-      "A location-led package for visitors who want a comfortable apartment close to the University of Ilorin axis.",
+      "A location focused package for visitors who want a comfortable apartment close to the University of Ilorin axis.",
     code: "UNILORIN",
   },
   {
     title: "Extended Comfort",
     description:
-      "A future long-stay offer for guests who need more nights, more privacy and easy payment tracking.",
+      "A future longer stay offer for guests who need more nights, more privacy and easy payment tracking.",
     code: "LONGSTAY",
   },
   {
@@ -193,7 +193,7 @@ export const informativePages = [
   {
     title: "Apartment Categories",
     href: "/apartments",
-    text: "Compare one, two and three-bedroom serviced apartments.",
+    text: "Compare one, two and three bedroom serviced apartments.",
   },
   {
     title: "Location Guide",

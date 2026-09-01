@@ -5,7 +5,7 @@ import { images, rooms } from "../site-data";
 export default function ApartmentsPage() {
   return (
     <main>
-      <PageHero title="Space for Every Kind of Stay." text="Choose from one, two and three-bedroom serviced apartments near the University of Ilorin axis." image={images.hero} />
+      <PageHero title="Space for Every Kind of Stay." text="Choose from one, two and three bedroom serviced apartments near the University of Ilorin axis." image={images.hero} />
       <section className="page-content">
         <div className="apartment-editorial-list">
           {rooms.map((room) => (
