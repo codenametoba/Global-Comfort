@@ -9,6 +9,7 @@ export const brand = {
 };
 
 export const navItems = [
+  ["Home", "/"],
   ["Stays", "/apartments"],
   ["Facilities", "/facilities"],
   ["Gallery", "/gallery"],
