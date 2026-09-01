@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { BackButton } from "./BackButton";
+import { MobileMenu } from "./MobileMenu";
 import { apartmentNames, brand, navItems, rooms } from "./site-data";
 
 export function Header() {
@@ -15,21 +17,7 @@ export function Header() {
         ))}
       </nav>
       <div className="header-actions">
-        <details className="mobile-menu">
-          <summary aria-label="Open menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </summary>
-          <nav aria-label="Mobile navigation">
-            {navItems.map(([label, href]) => (
-              <Link key={href} href={href}>
-                {label}
-              </Link>
-            ))}
-            <Link href="/my-booking">My Booking</Link>
-          </nav>
-        </details>
+        <MobileMenu items={navItems} />
         <Link href="/my-booking" className="ghost-link">
           My Booking
         </Link>
@@ -148,7 +136,10 @@ export function PageHero({ title, text, image, compact = false }: { title: strin
   return (
     <section className={compact ? "page-hero compact-hero" : "page-hero"} style={{ backgroundImage: compact ? undefined : `linear-gradient(90deg, rgba(13,28,21,.82), rgba(13,28,21,.32)), url(${image})` }}>
       <div>
-        <Link href="/" className="back-home">Back to Home</Link>
+        <div className="page-return-actions">
+          <BackButton />
+          <Link href="/" className="back-home">Home</Link>
+        </div>
         <p className="eyebrow">Global Comfort · Ilorin</p>
         <h1>{title}</h1>
         <p>{text}</p>
